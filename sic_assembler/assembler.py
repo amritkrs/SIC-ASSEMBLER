@@ -183,8 +183,8 @@ class Assembler(object):
 		self.__generated_objects = object_code
 		#print self.symtab
 		#print op_table
-		for x,(a,b,c) in object_code:
-			print hex(x),a,b,c
+		#for x,(a,b,c) in object_code:
+		#	print hex(x),a,b,c
 		#print object_code
 
 
